@@ -1,0 +1,79 @@
+# ─────────────────────────────────────────────
+# Terraform
+# ─────────────────────────────────────────────
+
+# Local state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform lock file (optional to ignore)
+# Jeśli pracujesz w zespole, NIE ignoruj tego pliku.
+# Jeśli pracujesz sam, możesz go ignorować.
+terraform.lock.hcl
+
+# Local override files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Module downloads
+.terraform/
+.terraform.lock.hcl
+
+# Plan files
+*.plan
+
+# Sensitive output files
+secret.auto.tfvars
+*.pem
+*.key
+
+# ─────────────────────────────────────────────
+# System files
+# ─────────────────────────────────────────────
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ─────────────────────────────────────────────
+# IDE / Editor files
+# ─────────────────────────────────────────────
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains (IntelliJ, PyCharm, etc.)
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+
+# ─────────────────────────────────────────────
+# Logs
+# ─────────────────────────────────────────────
+
+*.log
+logs/
